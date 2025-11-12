@@ -1,38 +1,43 @@
 Role Name
-=========
-
-A brief description of the role goes here.
+============================================
+이 역할에 대한 간단한 설명을 이곳에 작성합니다.
+============================================
 
 Requirements
-------------
-
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+============================================
+이 역할이 사용하는 기능 중 Ansible 자체로 충족되지 않는 사전 요구 사항이 있다면 여기에 명시합니다. 예를 들어 EC2 모듈을 사용하는 역할이라면, boto 패키지가 필요하다는 내용을 포함할 수 있습니다.
+============================================
 
 Role Variables
---------------
-
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+============================================
+이 역할에서 설정 가능한 변수 목록을 작성합니다.
+defaults/main.yml, vars/main.yml에 정의된 변수, 그리고 역할에 매개변수로 전달 가능한 변수들을 포함합니다.
+또한 hostvars, group_vars 등 다른 역할이나 전역 범위에서 참조하는 변수도 명시합니다.
+============================================
 
 Dependencies
-------------
-
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+============================================
+Galaxy에 호스팅된 다른 역할 목록을 적습니다.
+필요한 경우 해당 역할과 연계해 설정해야 하는 변수나 값들도 함께 기록합니다.
+============================================
 
 Example Playbook
-----------------
+============================================
+이 역할을 어떻게 사용하는지 예시를 포함합니다.
+예를 들어 변수 값을 전달하는법은 다음과 같습니다:
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
-
-    - hosts: servers
-      roles:
-         - { role: username.rolename, x: 42 }
+- hosts: servers
+  roles:
+    - { role: username.rolename, x: 42 }
+============================================
 
 License
--------
-
+============================================
 BSD
+============================================
 
 Author Information
-------------------
-
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+============================================
+역할 작성자의 연락 정보나 웹사이트 등 필요하다면 여기에 작성합니다.
+(HTML은 허용되지 않음)
+============================================
