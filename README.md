@@ -29,23 +29,6 @@ Dependencies
 firewalld, systemd, dnf 모듈을 사용.
 
 해당 모듈이 시스템에 설치되어 있어야 함.
-
-Example Playbook
-============================================
-이 역할을 사용하려면 다음과 같은 플레이북 예시를 참고.
-- hosts: servers
-  roles:
-    - role: rollback-svc
-      fw_svc:
-        - http
-        - https
-      svcs:
-        - httpd
-        - firewalld
-      files:
-        - /var/www/html/index.html
-      pkgs:
-        - httpd
       
 License
 ============================================
