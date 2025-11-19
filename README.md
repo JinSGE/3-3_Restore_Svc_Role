@@ -14,11 +14,13 @@ Requirements
 
 Role Variables
 ============================================
-변수명	 / 설명	                                              / 기본값
-fw_svc / 방화벽에서 차단할 서비스 목록 (HTTP/HTTPS 등)	        / http, https
-svcs   / 중지 및 비활성화할 서비스 목록 (httpd, firewalld 등)	/ httpd, firewalld
-files  / 삭제할 웹 인덱스 파일 목록	                          / /var/www/html/index.html
-pkgs	 / 제거할 패키지 목록
+fw_svc = 방화벽에서 차단할 서비스 목록 (HTTP/HTTPS 등)
+
+svcs   = 중지 및 비활성화할 서비스 목록 (httpd, firewalld 등)
+
+files  = 삭제할 웹 인덱스 파일 목록 (/var/www/html/index.html)
+
+pkgs   = 제거할 패키지 목록
 
 Dependencies
 ============================================
